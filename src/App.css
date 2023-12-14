@@ -7,6 +7,41 @@
   pointer-events: none;
 }
 
+/* Add this in your CSS file (e.g., App.css) */
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.video-capture {
+  width: 100%; /* Adjust based on your layout */
+  max-width: 600px; /* Prevents the video from being too large on wider screens */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.video-prediction {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #fdfcfc;
+}
+
+/* Add this in your CSS file (e.g., App.css) */
+
+.dropdown-menu {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  font-size: 1em;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
